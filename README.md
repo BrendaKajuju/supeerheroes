@@ -31,11 +31,17 @@ The API will be accessible at http://localhost:3000.
 The following endpoints are available in the Hero Tracker API:
 
 GET /heroes: Retrieve a list of all heroes.
+
 GET /heroes/:id: Retrieve details of a specific hero by ID.
+
 GET /powers: Retrieve a list of all powers.
+
 GET /powers/:id: Retrieve details of a specific power by ID.
+
 POST /hero_powers: Create a new hero power relationship.
+
 PATCH /powers/:id: Update the description of a specific power.
+
 Refer to the assignment for the expected JSON responses and request body structures for each endpoint.
 
 ## Contributing
